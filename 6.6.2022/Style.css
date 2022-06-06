@@ -1,0 +1,19 @@
+h1 {
+    width: 300px;
+    margin: auto;
+}
+
+h1,p {
+    /* display: inline; */
+}
+
+img {
+    width: 300px;
+display: block;
+margin: auto;
+
+}
+
+p {
+    /* display: none; */
+}

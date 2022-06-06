@@ -1,0 +1,43 @@
+html,body {
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0
+    ;
+}
+
+header {
+background-color: red;
+width: 100%;
+height: 20%;
+float: left;
+}
+
+
+aside {
+background-color: blue;
+width: 20%;
+height: 60%;
+float: left;
+}
+
+div {
+background-color: orange;
+width: 60%;
+height: 60%;
+float: left;
+}
+
+nav {
+    background-color: blue;
+width: 20%;
+height: 60%;
+float: left;
+}
+footer {
+    background-color: turquoise;
+width: 100%;
+height: 20%;
+float: left;
+}
