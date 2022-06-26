@@ -1,0 +1,16 @@
+a:link {
+    color: blueviolet;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+h2 u:first-child {
+    color: green;
+}
+

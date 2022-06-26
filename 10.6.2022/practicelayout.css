@@ -1,0 +1,69 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+box-sizing: border-box;
+}
+
+header,#headlink,#left,#content,#right,footer,#banner {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: cornflowerblue;
+    width: 30%;
+    height: 20%;
+text-align: center;
+float: left;
+
+}
+
+#banner {
+    background-color: cornflowerblue;
+    width: 70%;
+    height: 20%;
+    text-align: center;
+    float: left;
+}
+
+#headlink {
+    width: 100%;
+    height: 10%;
+    background-color: cornflowerblue;
+    text-align: center;
+    float: left;
+}
+
+#left {
+text-align: center;
+width: 20%;
+height: 50%;
+float: left;
+}
+
+#content {
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    float: left;
+}
+
+#right {
+    text-align: center;
+    width: 20%;
+    height: 50%;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    background-color: red;
+    float: left;
+}
+
+
