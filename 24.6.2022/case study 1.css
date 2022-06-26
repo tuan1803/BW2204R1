@@ -179,6 +179,8 @@ nav ul li a {
 .features-img img {
     width: 100%;
     border-radius: 10px;
+    position: relative;
+    left: 200px;
 }
 
 .features h1 {
