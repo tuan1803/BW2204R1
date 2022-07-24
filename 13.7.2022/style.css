@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(./image/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .container-fluid {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+body .primary-color {
+  color: white;
+}
+body .primary-bg {
+  background-color: white;
+}
+body .secondary-color {
+  color: #F8B547;
+}
+body .secondary-bg {
+  background-color: #F8B547;
+}
+
+.primary-border {
+  border: 2px solid white;
+}
+
+.secondary-border {
+  border: 2px solid #F8B547;
+}
+
+.btn-register:hover {
+  background-color: transparent;
+  color: #F8B547;
+}
+
+.btn-discover:hover {
+  background-color: white !important;
+  color: black;
+}/*# sourceMappingURL=style.css.map */

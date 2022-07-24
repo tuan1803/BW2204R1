@@ -1,0 +1,206 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.header .navbar #navbarDropdown {
+  color: #FA6F39;
+}
+.header .navbar .dropdown-item {
+  color: white;
+}
+.header .navbar .dropdown-item:hover {
+  background-color: #FA6F39;
+  color: black;
+}
+.header .navbar .navbar-brand {
+  color: #FA6F39;
+}
+.header .navbar .nav-link:hover {
+  color: #FA6F39 !important;
+}
+.header .navbar .nav-item .badge {
+  background-color: #FA6F39;
+}
+.header #carouselExampleCaptions .carousel-item {
+  transition: transform 2s ease, opacity 0.5s ease-out;
+}
+.header #carouselExampleCaptions .carousel-item img {
+  height: 100vh;
+  opacity: 0.4;
+}
+.header #carouselExampleCaptions .carousel-item .carousel-caption {
+  top: 380px;
+}
+.header #carouselExampleCaptions .carousel-item .carousel-caption h1 {
+  color: #FA6F39;
+}
+
+.reason .content-text h1 {
+  color: #FA6F39;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  top: 30px;
+  padding-bottom: 20px;
+}
+.reason .content-text h1::after {
+  content: "";
+  width: 300px;
+  height: 65px;
+  background: linear-gradient(#FA6F39, #fff);
+  position: absolute;
+  top: -35px;
+  left: -10px;
+  z-index: -1;
+  transform: rotate(0deg);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 0px;
+}
+.reason .text-left .color {
+  color: #FA6F39 !important;
+}
+.reason .text-left .bi-bookmark-star-fill {
+  color: #4427E6;
+  font-size: 30px;
+  transition: rotate(90deg);
+}
+.reason .video {
+  float: right;
+  position: relative;
+  top: -550px;
+  left: -450px;
+}
+
+.product {
+  height: 900px;
+}
+.product .content-text h1 {
+  color: #FA6F39;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  top: 30px;
+  padding-bottom: 20px;
+  top: 60px;
+  left: 100px;
+}
+.product .content-text h1::after {
+  content: "";
+  width: 300px;
+  height: 65px;
+  background: linear-gradient(#FA6F39, #fff);
+  position: absolute;
+  top: -35px;
+  left: -10px;
+  z-index: -1;
+  transform: rotate(0deg);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 0px;
+  left: -20px;
+}
+.product .row {
+  position: relative;
+  top: -250px;
+}
+.product .row .card-product:hover .product-desc {
+  bottom: 40%;
+  opacity: 1;
+}
+.product .row .card-product:hover .overlay {
+  opacity: 1;
+}
+.product .row .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), #FA6F39);
+  opacity: 0;
+  transition: 1s;
+}
+.product .row .product-desc {
+  width: 80%;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+  font-size: 50px;
+}
+.product .row .product-desc a {
+  color: white;
+}
+.product .row .product-desc a:hover {
+  color: black;
+}
+.product .row .card-body {
+  height: 100px;
+}
+
+.footer .text-primary-color {
+  color: #FA6F39;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #FA6F39 !important;
+}
+
+.testimonial {
+  height: 500px;
+  margin-bottom: 200px;
+}
+.testimonial .carousel-item {
+  height: 100%;
+}
+.testimonial .carousel-item .testimonial-img {
+  width: 80px;
+  height: 80px;
+}
+.testimonial .carousel-item .carousel-caption {
+  top: -10px;
+  left: -200px;
+}
+.testimonial .carousel-item .testimonial-text {
+  top: 50px;
+}
+
+.testi-content-text h1 {
+  color: #FA6F39;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  top: 30px;
+  padding-bottom: 20px;
+  top: -10px;
+}
+
+.testi-content-text h1::after {
+  content: "";
+  width: 300px;
+  height: 65px;
+  background: linear-gradient(#FA6F39, #fff);
+  position: absolute;
+  top: -35px;
+  left: -10px;
+  z-index: -1;
+  transform: rotate(0deg);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 0px;
+  left: -25px;
+}
+
+.background-testimonial-img {
+  opacity: 0.4 !important;
+}/*# sourceMappingURL=homegym.css.map */

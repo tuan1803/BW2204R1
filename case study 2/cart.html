@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./cart.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./modal/css/mdb.min.css">
+      </head>
+<body>
+   <!-- Start header  -->
+   <div class="header container bg-dark p-0 fs-5 m-0">
+    <!-- start nav -->
+    <nav class=" navbar fixed-top navbar-expand-lg bg-dark">
+      <div class="container-fluid ">
+        <a class=" navbar-brand ps-2" href="#"><i class="bi bi-diamond-half"></i>
+          Home Gym
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse  navbar-collapse justify-content-center pe-5" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#">Home</a></li>
+                <li><a class="dropdown-item" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#reason">Why Choose us</a></li>
+                <li><a class="dropdown-item" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#product">Product</a></li>
+                <li><a class="dropdown-item" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#testimonial">Testimonial</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#footer">footer</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/product.html#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light position-relative" href="#">Cart
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="nav-link text-light p-3" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="nav-link text-light p-3" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Facebook"><i class="bi bi-facebook"></i></i></a>       
+      </div>
+    </nav>
+  <!-- end nav    -->
+    </div>
+<!-- end header  -->
+
+<div class="cart-product w-75 m-auto row row-col-2 pt-5">
+    <div class="col">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><img src="./image/cart-product.jpg" class="test" alt=""><img src="./image/cart-color-1.jpg" class="color-1" alt=""></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"><img src="./image/cart-product 2.jpg" class="test-2" alt=""><img src="./image/cart-color-2.jpg" class="color-2" alt=""></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"><img src="./image/cart-prodcut 3.jpg" class="test-3" alt=""><img src="./image/cart-color-3.jpg" class="color-3" alt=""></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="./image/cart-product.jpg" class="d-block w-100" style="height: 790px; ;" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./image/cart-product 2.jpg" class="d-block w-100"style="height:790px" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./image/cart-prodcut 3.jpg" class="d-block w-100"style="height:790px" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="col col-text">
+        <h1>Polo's man Promax-S1</h1>
+        <small>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          |230| Đã bán (web): 2495
+        </small><br>
+        <big>499.000 đ</big> <span class="text-decoration-line-through ms-2" style="color: grey;">717.000 đ</span> <span class="ms-2" style="color: red;">30%</span>
+        <p>Color:</p>
+        <div class="size">
+          <p>Sizes:</p>
+          <button>S</button>
+          <button>M</button>
+          <button>L</button>
+          <button>XL</button>
+        </div>
+          <div class="quantity mt-4">
+            <p>Quantity:</p>
+            <input type="number" class="input-text qty text-center" name="quantity" value="1" title="Qty" size="4">
+
+          </div>
+      <div class="payment-form mt-2 align-item-center">
+        <p>Payment methods:</p>
+        <div class="form-check mt-2">
+          <input class="form-check-input" style="cursor:pointer ;" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+          <label class="form-check-label" for="flexRadioDefault1">
+            <img src="./image/COD.jpg" style="width: 10%;" alt=""> COD
+          </label>
+        </div>
+        <div class="form-check mt-2">
+          <input class="form-check-input" style="cursor:pointer ;" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+          <label class="form-check-label" for="flexRadioDefault2">
+            <img src="./image/Momo.jpg" style="width:10% ;" alt=""> MOMO
+          </label>
+        </div>
+        <div class="form-check mt-2">
+          <input class="form-check-input" style="cursor:pointer ;" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+          <label class="form-check-label" for="flexRadioDefault2">
+            <img src="./image/shopeepay.png" style="width:10% ;" alt="">Shoppe Pay
+          </label>
+        </div>
+        <div class="form-check mt-2">
+          <input class="form-check-input" style="cursor:pointer ;" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+          <label class="form-check-label p-1" for="flexRadioDefault2">
+            <img src="./image/ZAlopay.jpg" style="width:8% ;" alt=""> Zalo Pay
+          </label>         
+        </div>
+        <button type="button" class="btn w-100 mt-3 fs-6" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+          Payment 499.000 đ
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade"  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content " style="width:600px;">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Your product</h5>
+                <button type="button" class="btn-close bg-transparent" data-mdb-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row row-cols-2">
+                  <div class="col">
+                    <img src="./image/cart-product.jpg" class="w-75" alt="">             
+                  </div>
+                  <div class="col mt-5">
+                    <h5>Color: Black</h5>
+                    <h5>Size: XL</h5>
+                    <h5>Quantity: 1</h5>
+                    <h5>payment method: by MoMo</h5>
+                    <hr>
+                    <h4><b>Price: 499.000 đ</b></h4>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Return</button>
+                <button type="button" class="btn btn-primary">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="intro-product w-75 m-auto mt-5" >
+  <h1 class="text-center">Details Product </h1>
+  <div class="row row-cols-2 lh-5">
+    <div class="col fs-5 lh-lg">
+      Coolmate has launched a lot of sportswear products with many materials: maxcool, quickdry,... and with the goal of focusing on materials to bring customers good shirts that originate from the material. The Promax-S1 Men's Polo Shirt was launched at the right time this summer to ensure that Coolmate's customers are always comfortable, comfortable and still polite in any situation. Let's find out why this sports Polo shirt is a product that Coolmate loves to send to customers.
+    </div>
+    <div class="col">
+      <img src="./image/inotro-product-1).jpg" style="width:100% ;" alt="">
+    </div>
+    <div class="col mt-4">
+      <img src="./image/intro-product-2.jpg" style="width:100% ;" alt="">
+  </div>
+    <div class="col fs-5 lh-lg mt-4">
+      Promax-S1 Men's Sports Polo Shirt is a polo shirt designed just for you. <br>
+      Slighly Slim Fit so you stay fit in every move <br>
+      Quantitative fabric is only 155gsm, super light, feels like wearing without wearing <br>
+      Finishing Technology: Quickdry (Quick drying) and Wicking (quick wicking)
+    </div>
+</div>
+</div>
+
+<div class="other w-75 m-auto text-center mt-5">
+  <h1>Other Products</h1>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="card-group text-center">
+          <div class="card">
+            <img src="./image/clothes-1.jpg" class="card-img-top" alt="...">
+            <div class="overlay"></div>
+                    
+            <div class="product-desc text-center">
+              <a href="#"><i class="bi bi-cart-check"></i></a>
+              <a href="#"><i class="bi bi-eye "></i></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Green woman's clothes</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./image/clothes-2.jpg" class="card-img-top" alt="...">
+            <div class="overlay"></div>
+                    
+            <div class="product-desc text-center">
+              <a href="#"><i class="bi bi-cart-check"></i></a>
+              <a href="#"><i class="bi bi-eye "></i></a>
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title">Black man's clothes</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./image/gym equipment-1.jpg" class="card-img-top" alt="...">
+            <div class="overlay"></div>
+                    
+            <div class="product-desc text-center">
+              <a href="#"><i class="bi bi-cart-check"></i></a>
+              <a href="#"><i class="bi bi-eye "></i></a>
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title">Adjustment dumbbells</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card-group text-center">
+          <div class="card">
+            <img src="./image/clothes-3.jpg" class="card-img-top" alt="...">
+            <div class="overlay"></div>
+                    
+            <div class="product-desc text-center">
+              <a href="#"><i class="bi bi-cart-check"></i></a>
+              <a href="#"><i class="bi bi-eye "></i></a>
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title">Grey woman's clothes</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./image/clothes-4.jpg" class="card-img-top" alt="...">
+            <div class="overlay"></div>
+                    
+            <div class="product-desc text-center">
+              <a href="#"><i class="bi bi-cart-check"></i></a>
+              <a href="#"><i class="bi bi-eye "></i></a>
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title">White woman's clothes</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./image/gym equipment-2.jpg" class="card-img-top" alt="...">
+            <div class="overlay"></div>
+                    
+            <div class="product-desc text-center">
+              <a href="#"><i class="bi bi-cart-check"></i></a>
+              <a href="#"><i class="bi bi-eye "></i></a>
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title">Niken dumbbells</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card-group text-center">
+          <div class="card">
+            <img src="./image/gym equipment-3.jpg" class="card-img-top" alt="...">
+            <div class="overlay"></div>
+                    
+            <div class="product-desc text-center">
+              <a href="#"><i class="bi bi-cart-check"></i></a>
+              <a href="#"><i class="bi bi-eye "></i></a>
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title">Weightlifting chair</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./image/gym equipment-4.jpg" class="card-img-top" alt="...">
+            <div class="overlay"></div>
+                    
+            <div class="product-desc text-center">
+              <a href="#"><i class="bi bi-cart-check"></i></a>
+              <a href="#"><i class="bi bi-eye "></i></a>
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title">Jump rope sports</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./image/gym equipment-5.jpg" class="card-img-top" alt="...">
+            <div class="overlay"></div>
+                    
+            <div class="product-desc text-center">
+              <a href="#"><i class="bi bi-cart-check"></i></a>
+              <a href="#"><i class="bi bi-eye "></i></a>
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title">Yoga carpet</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <i class="bi bi-arrow-bar-left"></i>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <i class="bi bi-arrow-bar-right"></i>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+
+<!-- start footer  -->
+<section section id="footer" class="footer bg-dark text-white mt-5">
+  <hr>
+  <div class="row w-100 justify-content-around align-content-center">
+    <div class="col-4 w-25">
+      <h1 class="text-primary-color">Contact</h1>
+      <h5><i class="fa fa-map-marker-alt mr-2"></i>123 Street,Ha Noi,Viet Nam</h5>
+      <h5><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</h5>
+      <h5><i class="fa fa-envelope mr-2"></i>info@example.com</h5>
+      <i class="bi bi-facebook "></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-youtube"></i>
+    </div>
+  
+  <div class="col-4 w-25">
+    <h1 class="text-primary-color mb-4">Quick Links</h1>
+          <div class="links d-flex flex-column justify-content-start">
+              <a class="text-white mb-2" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+              <a class="text-white mb-2" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#reason"><i class="fa fa-angle-right mr-2"></i>Why choose Us</a>
+              <a class="text-white mb-2" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#product"><i class="fa fa-angle-right mr-2"></i>Product</a>
+              <a class="text-white mb-2" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#testimonial"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+         </div>
+   </div>
+
+    <div class="col-4 mb-5 w-25">
+          <h1 class="text-primary-color mb-4">Opening Hours</h1>
+          <h5 class="text-white">Monday - Friday</h5>
+          <p>8.00 AM - 8.00 PM</p>
+          <h5 class="text-white">Saturday - Sunday</h5>
+          <p>2.00 PM - 8.00 PM</p>
+      </div>
+</div> 
+
+<div class="container border-top border-dark pt-5">
+  <p class="m-0 text-center text-white">
+      &copy; <a class="text-white font-weight-bold" href="#">HomeGym</a>. All Rights Reserved. Designed by
+      <a class="text-white font-weight-bold" href="https://htmlcodex.com">Anh Tuan</a>
+  </p>
+</div>
+      </section>
+    <!-- end footer  -->
+    <script>     
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+  <script type="text/javascript" src="./modal/js/mdb.min.js"></script>
+</body>
+</html>

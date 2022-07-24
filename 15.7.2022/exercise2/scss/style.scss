@@ -1,0 +1,33 @@
+$small: 576px ;
+$medium: 768px;
+
+@mixin layout ($color,$size: 14px){
+    color:$color;
+    background-color: rgba(invert($color:$color),0.2);
+    font-size: $size;
+    margin: $size;
+    line-height: calc($size*1.5);
+    border: 5px solid $color;
+    text-decoration: to-upper-case($string: "");
+    list-style-type: lower-roman;
+    
+}
+
+
+#container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: ;
+    @include layout(darkred,14px )
+}
+
+@media screen and (min-width: $small) and (max-width: $medium){
+    #contaniner {
+        @include layout(darkblue,16px)
+    }
+}
+
+@media screen and (min-width: $medium) {
+    #container {
+        @include layout( darkgreen,20px)
+    }
+}

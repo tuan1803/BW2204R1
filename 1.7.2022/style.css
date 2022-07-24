@@ -1,0 +1,20 @@
+html.body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.text {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.text-header {
+    display: block !important;
+    text-align: center;
+}
+

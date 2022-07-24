@@ -1,0 +1,43 @@
+body {
+  font-family: "gotu", sans-serif;
+}
+
+#container {
+  max-width: 800px;
+  margin: auto;
+}
+#container nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+#container nav ul li {
+  width: 33%;
+  background-color: lightskyblue;
+  color: navy;
+  text-align: center;
+  border: 2px solid navy;
+  transition: 1s;
+}
+#container nav ul li a {
+  text-decoration: none;
+  color: navy;
+}
+#container nav ul li:hover {
+  background-color: navy;
+}
+#container nav ul li:hover a {
+  color: lightskyblue;
+}
+#container h1 {
+  color: navy;
+}
+
+@media screen and (max-width: 649px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=style.css.map */

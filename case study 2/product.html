@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <!-- Start header  -->
+    <div class="header container bg-dark p-0 fs-5 m-0">
+        <!-- start nav -->
+        <nav class=" navbar fixed-top navbar-expand-lg bg-dark">
+          <div class="container-fluid ">
+            <a class=" navbar-brand ps-2" href="#"><i class="bi bi-diamond-half"></i>
+              Home Gym
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse  navbar-collapse justify-content-center pe-5" id="navbarSupportedContent">
+              <ul class="navbar-nav  mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home
+                  </a>
+                  <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#">Home</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#reason">Why Choose us</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#product">Product</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#testimonial">Testimonial</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#footer">footer</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light position-relative" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/cart.html#">Cart
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                      99+
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="nav-link text-light p-3" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="nav-link text-light p-3" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Facebook"><i class="bi bi-facebook"></i></i></a>       
+          </div>
+        </nav>
+      <!-- end nav    -->
+    </div>
+  <!-- end header  -->
+
+  <!-- start nav and prodcut  -->
+    <div class="navbar-vertical overflow-hidden">
+      <div class="row m-0">
+        <div class="col-4 w-25 p-0 bg-dark">
+          <nav id="navbar-example3" class="h-100 w-25 position-fixed  flex-column align-items-stretch p-1 border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link nav-bg" href="#homegym">HomeGym</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#gymequipment">Gym equipment</a>
+                <a class="nav-link ms-3 my-1" href="#sportclothing">Sports clothing </a>
+              </nav>
+              <a class="nav-link nav-bg" href="#coachonline">Coach Online</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#coachs">Coachs</a>
+                <a class="nav-link ms-3 my-1" href="#timetable">Time Table</a>
+              </nav>
+            </nav>
+          </nav>
+        </div>
+      
+        <div class="col-8 w-75 p-0">
+            <div class="background-img p-0 text-center bg-dark">
+            <img class="w-100" src="./image/bg.jpg" alt="">
+             <div class="caption text-white">
+              <h1>Our Product</h1>
+              <h5>Home/Product</h5>
+             </div>
+            </div>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+            <div id="homegym" class="text-center">
+              <h1>HomeGym</h1>
+            </div>
+            <div id="gymequipment" class="text-center">
+              <h4 class="bg-dark mb-5" style="height:40px ;">Gym equipment</h4>
+              <div class="row row-cols-3 g-4">
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/gym equipment-1.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Adjuststable Dumbbells</h5>
+                      <p class="card-text">2.489.000 đ - 3.689.000 đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/gym equipment-2.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Niken Dumbbells</h5>
+                      <p class="card-text">4.489.000 đ - 5.000.000 đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/gym equipment-3.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Weightlifting chairs</h5>
+                      <p class="card-text"><span class="text-decoration-line-through">2.500.000 đ</span> - 3.689.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/gym equipment-4.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Jump rope sports</h5>
+                      <p class="card-text"><span class="text-decoration-line-through">300.000 đ</span> - 289.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/gym equipment-5.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Yoga carpet</h5>
+                      <p class="card-text"><span class="text-decoration-line-through">800.000 đ</span> - 750.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/gym equipment-6.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Boxing gloves</h5>
+                      <p class="card-text">2.000.000đ - 2.580.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div id="sportclothing" class="text-center" style="margin-top: 100px; ;">
+              <h4 class="bg-dark mb-5" style="height:40px ;">Sports clothing</h4>
+              <div class="row row-cols-3 g-4">
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/clothes-1.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Green woman's clothes</h5>
+                      <p class="card-text">1.000.000 đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/clothes-2.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Black man's clothes</h5>
+                      <p class="card-text"><span class="text-decoration-line-through">1.500.000 đ</span> - 1.090.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/clothes-3.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Grey man's clothes</h5>
+                      <p class="card-text"><span class="text-decoration-line-through">1.500.000 đ</span> - 1.09.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/clothes-4.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">White woman's clothes</h5>
+                      <p class="card-text"><span class="text-decoration-line-through">2.000.000 đ</span> - 1.900.000 đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/clothes-5.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                       <h5 class="card-title">Black bra</h5>
+                      <p class="card-text">500.000 đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-product position-relative">
+                    <img src="./image/clothes-6.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+                    
+                    <div class="product-desc text-center">
+                      <a href="#"><i class="bi bi-cart-check"></i></a>
+                      <a href="#"><i class="bi bi-eye "></i></a>
+                    </div>
+
+                    <div class="card-body position-relative">
+                      <h5 class="card-title">Man suit</h5>
+                      <p class="card-text">3.000.000 đ</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <div id="coachonline">
+              <h1 class="text-center">Coach Online</h1>
+            </div>
+            <div id="coachs">
+              <h4 class="bg-dark mb-5 text-center" style="height:40px ;">Coachs</h4>
+              <div class="row w-100 justify-content-center ">
+                <div class="card-product col-4 p-0 position-relative" style="width: 20rem; ">
+                   <img src="./image/coach- (1).jpg" class="card-img-top" ; alt="...">
+         
+                   <div class="overlay"></div>
+                         <div class="product-desc text-center text-white">
+                          <a href="#"><i class="bi bi-instagram"></i></a>
+                          <a href="#"><i class="bi bi-facebook"></i></a>
+                          <p>Banana</p>
+                         </div>
+                 </div>
+                 <div class="card-product col-4 p-0 position-relative" style="width: 20rem; ">
+                  <img src="./image/coach- (2).jpg" class="card-img-top" ; alt="...">
+        
+                  <div class="overlay"></div>
+                        <div class="product-desc text-center text-white">
+                          <a href="#"><i class="bi bi-instagram"></i></a>
+                          <a href="#"><i class="bi bi-facebook"></i></a>
+                          <p>grapefruit</p>
+                        </div>        
+                </div>
+                 <div class="card-product col-4 p-0 position-relative" style="width: 20rem;">
+                   <img src="./image/coach- (3).jpg" class="card-img-top"; alt="...">
+                   
+                   <div class="overlay"></div>
+                         <div class="product-desc text-center text-white">
+                          <a href="#"><i class="bi bi-instagram"></i></a>
+                          <a href="#"><i class="bi bi-facebook"></i></a>
+                          <p>pineapple</p>
+                         </div>              
+                 </div>
+               </div>
+            </div>
+            <div id="timetable" style="margin-top: 150px;">
+              <h4 class="bg-dark mb-2 text-center" style="height:40px ;">Time table</h4>
+              <div class="container gym-feature py-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="display-4 font-weight-bold">Working Hours and Class Time</h4>
+        </div>
+	<div class="tab-content">
+                <div class="container tab-pane p-0 active">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-dark text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">6.00am - 8.00am</th>
+                                    <td><h5>Cardio</h5>Banana</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Grapefruit</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>Pineapple</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>Banana</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">10.00am - 12.00am</th>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>Grapefruit</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>pineapple</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Grapefruit</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td><h5>Crossfit</h5>Banana</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>Grapefruit</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>pineapple</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Banana</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">7.00pm - 9.00pm</th>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>Grapefruit</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Pineapple</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>Banana</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+	</div>
+            </div>
+          </div>
+            </div>
+            <section section id="footer" class="footer bg-dark text-white mt-5">
+              <hr>
+              <div class="row w-100 justify-content-around align-content-center">
+                <div class="col-4 w-25">
+                  <h1 class="text-primary-color">Contact</h1>
+                  <h5><i class="fa fa-map-marker-alt mr-2"></i>123 Street,Ha Noi,Viet Nam</h5>
+                  <h5><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</h5>
+                  <h5><i class="fa fa-envelope mr-2"></i>info@example.com</h5>
+                  <i class="bi bi-facebook "></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-youtube"></i>
+                </div>
+              
+              <div class="col-4 w-25">
+                <h1 class="text-primary-color mb-4">Quick Links</h1>
+                      <div class="d-flex flex-column justify-content-start">
+                          <a class="text-white mb-2" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                          <a class="text-white mb-2" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#reason"><i class="fa fa-angle-right mr-2"></i>Why choose Us</a>
+                          <a class="text-white mb-2" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#product"><i class="fa fa-angle-right mr-2"></i>Product</a>
+                          <a class="text-white mb-2" target="_blank" href="file:///C:/Users/DungDM/Desktop/front-end/BW2204R1/case%20study%202/homegym.html#testimonial"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                     </div>
+               </div>
+            
+                <div class="col-4 mb-5 w-25">
+                      <h1 class="text-primary-color mb-4">Opening Hours</h1>
+                      <h5 class="text-white">Monday - Friday</h5>
+                      <p>8.00 AM - 8.00 PM</p>
+                      <h5 class="text-white">Saturday - Sunday</h5>
+                      <p>2.00 PM - 8.00 PM</p>
+                  </div>
+            </div> 
+            
+            <div class="container border-top border-dark pt-5">
+              <p class="m-0 text-center text-white">
+                  &copy; <a class="text-white font-weight-bold" href="#">HomeGym</a>. All Rights Reserved. Designed by
+                  <a class="text-white font-weight-bold" href="https://htmlcodex.com">Anh Tuan</a>
+              </p>
+            </div>
+                  </section>
+        </div>
+      </div>
+      
+    </div>
+    <!-- end nav and product  -->  
+     
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+</body>
+</html>

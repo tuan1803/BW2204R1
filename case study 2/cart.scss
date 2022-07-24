@@ -1,0 +1,182 @@
+$primary-color:#FA6F39;
+
+html,body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.header {
+    height: 8%;
+    .navbar {
+        #navbarDropdown {
+            color:$primary-color;
+        }
+        .dropdown-item {
+            color: white;
+        }
+        .dropdown-item:hover {
+            background-color: $primary-color;
+            color:black ;
+        }
+        .navbar-brand {
+            color: $primary-color;
+        }
+        .nav-link:hover {
+            color: $primary-color !important   ;
+        }
+        .nav-item {
+            .badge {
+                background-color: $primary-color;
+            }
+        }
+    }
+}
+
+@mixin test ($bottom,$left) {
+    position: relative;
+    width: 200%;
+    height: auto;
+    bottom:  $bottom;
+    left: $left;
+    border: 1px solid grey;
+}
+
+.carousel-indicators {
+    .test {
+        @include test (680px,260px);
+    }
+    
+    .test-2 {
+        @include test (580px,224px)
+    }
+    .test-3 {
+        @include test (480px,189px)
+    }
+    .color-1 {
+        @include test (620px,930px)
+    }
+    .color-2 {
+        @include test (620px,970px)
+    }
+    .color-3 {
+        @include test (620px,1010px)
+    }
+}
+
+.col-text {
+    .size {
+        margin-top: 10%;
+        button {
+            border: none;
+            border-radius: 12px;
+            width: 10%;
+        }
+        button:focus {
+            background-color: $primary-color !important;
+        }
+    }
+    .payment-form {
+        button {
+            height: 50px;
+            background-color: black;
+            color: white;
+        }
+        button:hover{
+            background-color: $primary-color;
+
+        }
+        .form-check {
+            label {
+            border: 1px solid rgb(201, 183, 183);
+            border-radius: 12px;
+            width: 100%;
+            padding-left: 10px;
+            }
+            .form-check-input {
+                margin-top: 3%;
+            }    
+        }    
+    }
+}
+
+
+.footer {
+    .text-primary-color {
+        color: $primary-color;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover {
+        color: $primary-color !important;
+    }
+}  
+
+.other {
+    height: 600px;
+    img{
+        height: 400px;
+    }
+
+    .carousel-indicators {
+        button {
+            background-color: black;
+            position: relative;
+            bottom: -50px;
+        }
+    }
+
+    .carousel-inner {
+        .card:hover .product-desc {
+            bottom: 40%;
+            opacity: 1 ;
+        }
+        .card:hover .overlay {
+            opacity: 1;
+        }
+            .overlay {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0; 
+                 border-radius: 7px;
+                cursor: pointer;
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), $primary-color);
+                opacity: 0;
+                transition: 1s;
+            }
+            .product-desc {
+                 width: 80%;
+                 position: absolute;
+                 bottom: 25px;
+                 left: 50%;
+                 opacity: 0;
+                  transform: translateX(-50%);
+                 transition: 1s;
+                 font-size: 50px;
+                a{
+                    color: white;
+                }
+                a:hover {
+                    color: black;
+                }
+            }
+    }
+
+    .bi-arrow-bar-left {
+        color: black;
+        position: relative;
+        left: -140px;
+        font-size: 40px;
+    }
+    .bi-arrow-bar-right {
+        color: black;
+        position: relative;
+        right: -140px;
+        font-size: 40px;
+    }
+}

@@ -254,13 +254,13 @@ nav ul li a {
 }
 
 .single-service:hover .overlay{
-    opacity: 1;
+    opacity: 0;
 }
 
 .service-desc {
     width: 80%;
     position: absolute;
-    bottom: 0;
+    bottom: 25px;
     left: 50%;
     opacity: 0;
     transform: translateX(-50%);
