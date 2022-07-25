@@ -1,0 +1,121 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+html h1, body h1 {
+  color: #FA6F39;
+}
+html h4, body h4 {
+  color: #FA6F39;
+  font-size: 30px;
+}
+
+.header {
+  height: 8%;
+}
+.header .navbar #navbarDropdown {
+  color: #FA6F39;
+}
+.header .navbar .dropdown-item {
+  color: white;
+}
+.header .navbar .dropdown-item:hover {
+  background-color: #FA6F39;
+  color: black;
+}
+.header .navbar .navbar-brand {
+  color: #FA6F39;
+}
+.header .navbar .nav-link:hover {
+  color: #FA6F39 !important;
+}
+.header .navbar .nav-item .badge {
+  background-color: #FA6F39;
+}
+
+.background-img {
+  height: 250px;
+  overflow: hidden;
+}
+.background-img img {
+  opacity: 0.2;
+}
+.background-img .caption {
+  position: relative;
+  top: -200px;
+}
+.background-img .caption h1 {
+  color: #FA6F39;
+}
+
+.navbar-vertical .col-4 .nav-pills {
+  --bs-nav-pills-link-active-bg: #FA6F39;
+}
+.navbar-vertical .col-4 .nav-pills a {
+  --bs-link-hover-color: #FA6F39;
+}
+.navbar-vertical .col-4 .nav-bg {
+  background-color: #FA6F39;
+}
+.navbar-vertical .col-4 #navbar-example3, .navbar-vertical .col-4 a, .navbar-vertical .col-4 .nav {
+  border: none !important;
+  color: white;
+}
+.navbar-vertical .col-8 img {
+  width: 100%;
+  height: 300px;
+}
+.navbar-vertical .col-8 .row {
+  position: relative;
+  width: 1601 !important;
+}
+.navbar-vertical .col-8 .row .card-product:hover .product-desc {
+  bottom: 40%;
+  opacity: 1;
+}
+.navbar-vertical .col-8 .row .card-product:hover .overlay {
+  opacity: 1;
+}
+.navbar-vertical .col-8 .row .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), #FA6F39);
+  opacity: 0;
+  transition: 1s;
+}
+.navbar-vertical .col-8 .row .product-desc {
+  width: 80%;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+  font-size: 50px;
+}
+.navbar-vertical .col-8 .row .product-desc a {
+  color: white;
+}
+.navbar-vertical .col-8 .row .product-desc a:hover {
+  color: black;
+}
+.navbar-vertical .col-8 .row .card-body {
+  height: 100px;
+}
+
+.footer .text-primary-color {
+  color: #FA6F39;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #FA6F39 !important;
+}/*# sourceMappingURL=product.css.map */
